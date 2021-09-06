@@ -28,8 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Set up JDK 1.11
         run: actions/setup-java@v1
-        with:
-          java-version: 1.11
+          with: java-version: 1.11
 
       # Runs a set of commands using the runners shell
       - name: Build with Maven
